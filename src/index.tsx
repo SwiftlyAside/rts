@@ -1,12 +1,4 @@
 import ReactDOM from "react-dom";
-import UserSearch from "./refs/UserSearch";
-
-const App = () => {
-  return (
-    <div>
-      <UserSearch />
-    </div>
-  );
-};
+import App from "./components/App";
 
 ReactDOM.render(<App />, document.querySelector("#root"));
